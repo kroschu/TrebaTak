@@ -1,0 +1,33 @@
+scss_files: 'assets/sass/**/*.scss'
+
+exclude:
+  - 'assets/sass/vendor/**'
+  - 'assets/sass/includes/_fonts.scss'
+  - 'assets/css/**'
+  - '_site/**'
+  - 'build/**'
+  - 'test/**'
+
+linters:
+  StringQuotes:
+    enabled: true
+    style: double_quotes
+  Indentation:
+    character: space
+    width: 4
+  Comment:
+    enabled: false
+  LeadingZero:
+    enabled: false
+  SelectorDepth:
+    enabled: false
+  NameFormat:
+    enabled: false
+  UrlFormat:
+    enabled: false
+  SingleLinePerSelector:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  NestingDepth:
+    enabled: false

@@ -1,0 +1,68 @@
+html {
+    line-height: normal;
+}
+
+body {
+    font-family: $font-family;
+    font-weight: 300;
+    background-color: $bgcolor-page;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-primary;
+}
+
+p {
+    margin: 0 0 10px;
+
+    &.small {
+        color: $color-medgrey;
+        font-size: 14px;
+        font-weight: 200;
+    }
+}
+
+hr {
+    margin: 15px 0;
+}
+
+code, pre {
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+}
+
+// scss-lint:disable QualifyingElement
+
+code.highlighter-rouge {
+    background-color: $bgcolor-code;
+    padding: 1px 5px;
+}
+
+// scss-lint:enable QualifyingElement
+
+.container {
+    background-color: $color-white;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.page {
+    p, li {
+        line-height: 1.5rem;
+    }
+
+    p {
+        margin: 0 0 1rem;
+    }
+}

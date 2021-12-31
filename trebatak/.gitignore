@@ -1,0 +1,10 @@
+_site
+build
+test
+
+.sass-cache
+.jekyll-metadata
+.bundle
+
+node_modules
+vendor/

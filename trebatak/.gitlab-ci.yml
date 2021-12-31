@@ -1,0 +1,32 @@
+image: ruby:2.3
+
+variables:
+  JEKYLL_ENV: production
+  NOKOGIRI_USE_SYSTEM_LIBRARIES: "true"   # Speeds up installation of html-proofer
+
+before_script:
+- bundle install
+
+test:
+  stage: test
+  tags:
+    - docker
+  script:
+    - bundle exec jekyll build -d test
+    - bundle exec rake
+    - bundle exec scss-lint .
+  artifacts:
+    paths:
+    - test
+
+pages:
+  stage: deploy
+  tags:
+    - docker
+  script:
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

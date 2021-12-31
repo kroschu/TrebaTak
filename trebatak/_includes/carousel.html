@@ -1,0 +1,30 @@
+<div class="carousel">
+  <div class="carousel-inner">
+    {% for image in page.images %}
+      <input class="carousel-open"
+             type="radio" id="carousel-{{ forloop.index }}"
+             name="carousel"
+             aria-hidden="true"
+             hidden=""
+             {% if forloop.index == 1 %} checked="checked"{% endif %}>
+      <div class="carousel-item">
+        <a href="#img-{{ forloop.index }}">
+          <img src="{{ image | prepend: page.basepath | prepend: '/assets/images/' }}" alt="{{ image }}">
+        </a>
+      </div>
+    {% endfor %}
+    <ol class="carousel-indicators">
+      {% for image in page.images %}
+        <li>
+          <label for="carousel-{{ forloop.index }}" class="carousel-bullet">&middot;</label>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</div>
+
+{% for image in page.images %}
+  <a href="#_" class="lightbox" id="img-{{ forloop.index }}">
+    <img src="{{ image | prepend: page.basepath | prepend: '/assets/images/' }}" alt="{{ image }}">
+  </a>
+{% endfor %}

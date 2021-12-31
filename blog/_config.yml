@@ -1,0 +1,98 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Володимир Коваленко
+description: Інженер
+baseurl: '' # the subpath of your site, e.g. /blog
+permalink: '/blog/:title/'
+url: 'http://vokov.netlify.app' # the base hostname & protocol for your site
+
+author:
+  name: Володимир Коваленко
+  facebook: 'tukroschu'
+  twitter: 'kroschu'
+  github: 'kroschu'
+  linkedin: 'kroschu1'
+
+navigation:
+  - title: Про
+    url: /
+  - title: Презентації
+    url: /portfolio/
+  - title: Блог
+    url: /blog/
+  - title: Резюме
+    url: /resume/
+  - title: Контакти
+    url: /contact/
+
+# Comments
+allow_comments: true
+comments_service: facebook
+fb_app_id: 571415890410555
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      enable_comments: true
+  - scope:
+      path: ''
+      type: portfolio
+    values:
+      device: desktop
+      orientation: landscape
+      basepath: portfolio/screenshots/
+
+# General settings
+encoding: utf-8
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+kramdown:
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: assets/sass
+  style: :compressed
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - CNAME
+  - node_modules
+  - assets/sass
+  - assets/psd
+  - docker-compose.yml
+  - vendor/
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

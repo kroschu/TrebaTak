@@ -1,0 +1,72 @@
+{
+	"gitbook": "3.x.x",
+	"language": "ua",
+	"plugins": [
+		"include",		 
+		"toggle-chapters",
+        "video-7dtime", 
+        "insert-logo-link",
+        "panel",
+        "language-picker",
+        "anchorjs",
+        "collapsible-menu",
+        "-search",
+        "-lunr",
+        "search-plus",
+        "include-html",
+        "edit-link",
+        "custom-favicon",
+        "embed-pdf", 
+        "fancybox",
+        "accordion",
+        "back-to-top-button"
+	],
+	"styles": {
+		"website": "styles/website.css"
+	},
+	"title": "TrebaTak",
+	"links": {
+		"sidebar": {
+			"mail to dev": "mailto:tukroschu@gmail.com",
+			"Джерела": "https://lib.uabp.ml/ubooquity/books/",
+            "ТребаТак": "https://prs.uabp.ml",
+            "Old version": "https://doc.treba.ml/"  
+		}
+	},
+	"pluginsConfig": {
+	"favicon": "favicon.ico",
+	"insert-logo-link": {
+            "src": "/logo.png",
+            "url": "#"
+		},
+		"edit-link": {
+			"base": "https://toc.treba.ml/kde/index.php?editor/edit#filename=%2Fconfig%2Fwww%2Fkde%2Fdata%2FUser%2Fadmin%2Fhome%2Fintro%2Fintro%2F",
+			"label": "Правити"
+		},
+		"anchorjs": {
+			"selector": "h2,h3,h4,h5,h6",
+			"icon": "#",
+			"placement": "right",
+			"visible": "hover",
+			"class": "custom-class another-one",
+			"truncate": 64,
+			"ariaLabel": "Anchor"
+		},
+		"language-picker": {
+			"grid-columns": 3
+		},
+		"pdf": {
+			"pageNumbers": false,
+			"fontSize": 12,
+			"paperSize": "a4",
+			"margin": {
+				"right": 62,
+				"left": 36,
+				"top": 36,
+				"bottom": 36
+			},
+			"headerTemplate": null,
+			"footerTemplate": null
+		}
+	}
+}

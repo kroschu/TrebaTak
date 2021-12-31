@@ -1,0 +1,76 @@
+---
+layout: default
+title: Interests
+---
+
+<div class="page page-interests">
+  <div class="row center-xs">
+    <div class="col-xs-12">
+      <h1>Interests and Skills</h1>
+      <p class="small">An updated list of what I can do, what I like to do, and what I wish to learn in the near future.</p>
+    </div>
+  </div>
+
+  <div class="interests-row row top-xs">
+    <div class="col-xs-12 center-xs">
+      <h2>What I can do</h2>
+      <p class="small">The things I do professionally, academically, and well, for fun as well.</p>
+    </div>
+
+    {% for skill in site.data.interests.skills %}
+      <div class="col-xs-12 col-md-3">
+        <p class="interest-type">{{ skill.category }}</p>
+      </div>
+      <ul class="tag-list col-xs-12 col-md-9">
+        {% for item in skill.items %}
+          <li class="tag">
+            {% if item.url %}
+              <a href="{{ item.url }}">{{ item.name }}</a>
+            {% else %}
+              <span>{{ item.name }}</span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+
+  </div>
+
+  <div class="interests-row row center-xs">
+    <div class="col-xs-12">
+      <h2>What I like to do</h2>
+      <p class="small">Even though I code 90% of the time, I (try to) have a life apart from that too!</p>
+    </div>
+
+    <ul class="tag-list col-xs-12 center-xs">
+      {% for item in site.data.interests.interests %}
+        <li class="tag">
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          {% else %}
+            <span>{{ item.name }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="interests-row row center-xs">
+    <div class="col-xs-12">
+      <h2>What I'm learning/Hoping to learn</h2>
+      <p class="small">The following also serves as a todo list for myself to keep learning!</p>
+    </div>
+
+    <ul class="tag-list col-xs-12 center-xs">
+      {% for item in site.data.interests.learning %}
+        <li class="tag">
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          {% else %}
+            <span>{{ item.name }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+/* popup window */
+a.popup{position:relative;}
+a.popup span{
+    display:none;
+    position:absolute;
+    top:-2em;
+    left:0px;
+    z-index: 99;
+    border: 0px solid; 
+    border-radius: 2px;
+    padding:4px;
+    max-width:800px;
+    background-color: rgb(201, 220, 224);
+    box-shadow:0px 2px 3px #888888;   /* X-axis offset, Y-axis offset, size, color */
+    color:#444444;
+    line-height: 135%;
+    white-space: nowrap;
+    font-weight:normal;
+    font-size: 14px !important; /*!important用来改变权重，不加的话字体无效*/
+}
+a.popup:hover span{display:inline-block}
+
+/* expand_collapse content*/
+.list_content{
+    display:block;
+    max-height: 0px;
+    transition: max-height .35s;
+    -moz-transition: max-height .35s;
+    -webkit-transition: max-height .35s;
+    -o-transition:max-height .35s;
+    overflow: hidden;
+}
+/* customize expand_collapse content*/
+.list_single{
+    display:inline-block;
+    position: relative;
+    color:#444444;
+    border-radius: 3px;
+    background-color: rgb(211, 230, 224);
+    box-shadow:1px 2px 3px #888888;   /* X-axis offset, Y-axis offset, size, color */
+    /*max-width: 800px;*/
+    line-height: 145%;
+    font-size:14px !important;
+    padding:8px;
+    margin:3px;
+}
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+- name: GraphQL
+  url: http://graphql.org/
+- name: Kafka
+  url: https://kafka.apache.org/
+- name: Kubernetes
+  url: https://kubernetes.io/
+- name: OpenFaaS
+  url: https://www.openfaas.com/
+- name: TensorFlow
+  url: https://www.tensorflow.org/

@@ -1,0 +1,59 @@
+---
+layout: default
+title: Resume
+---
+
+<div class="page page-resume">
+  <div class="row center-xs">
+    <div class="col-xs-12">
+      <h1>Resume</h1>
+      <p class="small">To download my resume as PDF, please click <a href="https://cv.irvinlim.com/">here</a>.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 class="section-header">Experience</h4>
+    </div>
+
+    {% for exp in site.data.resume.experience %}
+      <div class="col-xs-12 resume-row">
+        <h2 class="item-title">{{ exp.title }}</h2>
+        <h3 class="item-subtitle">{{ exp.company }}</h3>
+        <h4 class="item-date">{{ exp.date }}</h4>
+        {% for desc in exp.description %}
+          {{ desc | markdownify }}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 class="section-header">Education</h4>
+    </div>
+
+    {% for edu in site.data.resume.education %}
+      <div class="col-xs-12 resume-row">
+        <h2 class="item-title">{{ edu.school }}</h2>
+        <h3 class="item-subtitle">{{ edu.programme }}</h3>
+        <h4 class="item-date">{{ edu.date }}</h4>
+        {{ edu.description | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 class="section-header">Awards and Scholarships</h4>
+    </div>
+
+    {% for award in site.data.resume.awards %}
+      <div class="col-xs-12 resume-row">
+        <h2 class="item-title">{{ award.name }}</h2>
+        <h3 class="item-subtitle">{{ award.awarder }}</h3>
+        <h4 class="item-date">{{ award.date }}</h4>
+      </div>
+    {% endfor %}
+  </div>
+</div>

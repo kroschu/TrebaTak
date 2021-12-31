@@ -1,0 +1,19 @@
+---
+label: post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: category
+  label: category
+pages:
+- _posts/2020-07-13-спіраль-знань.md
+- _posts/2020-07-14-bpm.md
+- _posts/2020-07-14-c.md
+- _posts/2020-07-14-цикл-процесу-управління-бізнес-процесами.md
+- _posts/2020-07-14-що-таке-управління-бізнес-процесами.md

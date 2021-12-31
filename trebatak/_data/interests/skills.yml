@@ -1,0 +1,98 @@
+- category: Languages
+  items:
+  - name: Bash
+  - name: C
+  - name: Go
+  - name: Java
+  - name: JavaScript
+  - name: Lua
+  - name: Ruby
+  - name: PHP
+  - name: Python
+  - name: Swift
+- category: Frontend Web
+  items:
+  - name: React
+    url: https://facebook.github.io/react/
+  - name: Redux
+    url: http://redux.js.org/
+  - name: Vue.js
+    url: https://vuejs.org
+  - name: Bootstrap
+    url: https://getbootstrap.com
+  - name: jQuery
+    url: https://jquery.com
+  - name: Sass
+    url: http://sass-lang.com
+- category: Backend Web
+  items:
+  - name: Node.js
+    url: https://nodejs.org
+  - name: Laravel
+    url: https://laravel.com/
+  - name: Meteor
+    url: https://www.meteor.com/
+  - name: WordPress
+    url: https://wordpress.org/
+- category: Native Apps
+  items:
+  - name: React Native
+    url: https://facebook.github.io/react-native/
+  - name: iOS (Swift 3)
+    url: https://developer.apple.com/swift/
+  - name: Electron
+    url: https://electronjs.org/
+- category: Web Systems
+  items:
+  - name: Docker
+    url: https://docker.com/
+  - name: Apache httpd
+    url: https://httpd.apache.org/
+  - name: nginx
+    url: https://nginx.org/
+  - name: OpenResty
+    url: https://openresty.org/en/
+  - name: ModSecurity
+    url: https://modsecurity.org/
+  - name: AWS
+    url: https://aws.amazon.com/
+- category: Databases
+  items:
+  - name: MySQL
+    url: https://www.mysql.com/
+  - name: PostgreSQL
+    url: https://www.postgresql.org/
+  - name: MongoDB
+    url: https://www.mongodb.com/
+  - name: Redis
+    url: https://redis.io/
+  - name: Elasticsearch
+    url: https://www.elastic.co/products/elasticsearch
+- category: Data Engineering
+  items:
+  - name: Fluentd
+    url: https://www.fluentd.org
+- category: Interface Design
+  items:
+  - name: Photoshop
+    url: https://www.adobe.com/Photoshop
+  - name: Sketch
+    url: https://www.sketchapp.com/
+- category: Skills
+  items:
+  - name: Responsive Web Apps
+  - name: Single Page Apps
+  - name: Progressive Web Apps
+  - name: REST APIs
+  - name: Microservice Architecture
+  - name: AWS Network Architecture
+  - name: Serverless Architecture
+  - name: HTTP Proxies
+  - name: Linux Administration
+  - name: Continuous Integration/Deployment
+  - name: Web App Firewalls
+  - name: Pentesting
+  - name: Log Collection
+  - name: Mobile App Development
+  - name: Desktop App Development
+  - name: UI Mockup Design

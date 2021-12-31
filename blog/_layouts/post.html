@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="page page-blog-single preview-zenburn">
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-meta small">Опубліковано {{ page.date | date: "%B %-d %Y" }} &middot; {% include read-time.html %}</p>
+
+  {{ content }}
+
+  {% if site.allow_comments %}
+    <div class="post-comments">
+      <hr>
+
+      {% if page.enable_comments %}
+
+        {% if site.comments_service == "facebook" %}
+          <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                appId      : '{{ site.fb_app_id }}',
+                xfbml      : true,
+                version    : 'v2.9'
+              });
+            };
+
+            (function(d, s, id){
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+          </script>
+
+          <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-colorscheme="light" data-num-posts="5" data-width="100%"></div>
+        {% endif %}
+
+      {% else %}
+        <div class="row center-xs">
+          <div class="col-xs-12">
+            <p class="small">Comments are disabled for this post.</p>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+</div>

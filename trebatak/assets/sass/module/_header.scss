@@ -1,0 +1,49 @@
+header {
+    border-bottom: 1px solid $color-border;
+    padding: 20px 0;
+
+    .header-identity {
+        h1 {
+            font-size: 32px;
+            font-weight: 200;
+            color: $color-lightgrey;
+            margin: 20px 0 10px;
+
+            span {
+                font-weight: 300;
+                color: $color-text;
+            }
+        }
+
+        h3 {
+            font-weight: 200;
+            color: $color-lightgrey;
+            margin: 10px 0;
+        }
+    }
+
+    .header-nav {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        a {
+            @include transition(225ms color);
+
+            font-size: 18px;
+            font-weight: 200;
+            color: $color-lightgrey;
+            display: block;
+
+            &.current {
+                color: $color-medgrey;
+                font-weight: 300;
+            }
+
+            &:hover {
+                color: $color-medgrey;
+            }
+        }
+    }
+}

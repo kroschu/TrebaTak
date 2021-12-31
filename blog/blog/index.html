@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="page page-blog">
+
+  <ul class="posts">
+    {% for post in site.posts %}
+
+      <h3 class="post-year">
+        {% unless post.next %}
+          {{ post.date | date: '%Y' }}
+        {% else %}
+          {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+          {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+          {% if year != nyear %}
+            {{ post.date | date: '%Y' }}
+          {% endif %}
+        {% endunless %}
+      </h3>
+
+      <li itemscope>
+        <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-meta small">Posted on {{ post.date | date: "%B %-d" }} &middot; {% include read-time.html %}</p>
+        <p>{{ post.excerpt | strip_html | strip }} <span class="read-more"><a href="{{ site.baseurl }}{{ post.url }}">Дочитати ...</a></span></p>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+</div>

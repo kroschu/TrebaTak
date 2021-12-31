@@ -1,0 +1,23 @@
+.btn {
+    @include border-radius(5px);
+    @include transition(225ms opacity);
+
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: $bgcolor-button;
+    color: $color-text;
+
+    .fa {
+        margin-right: 5px;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    color: $color-text-white;
+}

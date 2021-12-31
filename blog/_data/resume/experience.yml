@@ -1,0 +1,71 @@
+- title: Production Engineer Intern
+  company: Facebook - Menlo Park, CA
+  date: May 2019 - Present
+
+- title: Software Engineering Intern, Platform Engineering Group
+  company: Shopee Singapore
+  date: May 2018 - Oct 2018
+  description:
+    - __SMTP Gateway__: Rewrote an email gateway backed with Kafka that processes up to 4 million emails a day tosupport exactly-once semantics, load balanced consumer groups, and high availability of workers.
+    - __Runonce__: Developed a cron job container scheduler for Apache Mesos, REST API, and Rundeck plugin.
+    - __Bromo__: Designed and developed a service scheduler for Apache Mesos that supports pluggable deploymentstrategies and node assignment policies, designed to support over 300,000 containers across all datacenters.
+    - __Private DNS__: Implemented performance and reliability improvements to Shopee’s private DNS server, used by allcontainers for service discovery.
+    - __OAuth2 Proxy__: Implemented role-based access control (RBAC) in Shopee’s internal OAuth2 proxy, segregatinguser permissions by roles and projects for various services and platforms.
+    - __Deployment Tools__: Worked on various tooling used by all Shopee engineers, PMs and release managers, such ascontainer `init` entrypoints, internal CLIs, Jenkins, Rundeck, etc.
+
+- title: Associate Web Security Developer
+  company: Banff Cyber Technologies
+  date: May 2017 - Nov 2017
+  description:
+    - >
+      [Banff Cyber Technologies](https://www.banffcyber.com) is a Singapore-based cybersecurity start-up which provides web
+      security solutions for enterprises and small businesses alike. In my 6-month stint at the company, my main focus was on the
+      [WebOrion Business SaaS](https://www.weborion.io) Web Application Firewall (WAF).
+    - >
+      I developed the WAF Research Network, a complete framework in Node.js, PHP and Docker, for deploying, writing and running
+      automated false positive and false negative tests against web application firewalls, with a set of almost 250 comprehensive
+      WAF tests in various categories such as SQL injection, cross-site scripting and inclusion attacks. This included tests against
+      popular web applications such as WordPress and OpenCart.
+    - >
+      I was also involved in planning the architecture for the next version of the WebOrion WAF, utilising various Amazon Web Services (AWS)
+      such as SNS and Lambda, taking into account various considerations such as costs, capabilities, ease of development and latency of
+      configuration updates. This was followed with implementing a multi-tenant WAF proxy using various technologies such as Docker and OpenResty.
+      I also implemented auto scaling and load balancing on AWS, for better fault tolerance, higher availability and reduced operational costs,
+      for the WAF proxy to manage sudden surges in traffic.
+    - >
+      Finally, I implemented the various REST API endpoints and controllers on Laravel that would manage and update each WAF instance's configuration
+      on a per-domain basis almost instantly, as well as the UI for the admin portal that would consume this API on Vue.js.
+    - >
+      Apart from development, I was also involved in performing competitive analysis of costs, price plans and features of the WebOrion
+      Security Platform with that of competitors, which culminated in working with the CEO to launch new and more competitive price plans
+      in line with the company's strategy.
+
+- title: Full-Stack Web Developer (React, Node.js, PHP)
+  company: Geektronics Solutions
+  date: Dec 2016 - Apr 2017
+  description:
+    - >
+      Working with Geektronics, we were commissioned by [Fei Siong Group](https://feisionggroup.com.sg/) to revamp their point-of-sales
+      (POS) systems used in over 150 outlets islandwide. Together with another backend developer, we were in charge of
+      delivering a REST API to be used by the POS system, an admin backend for managing the data, as well as generating
+      PDF and CSV reports based on transactional data. My role was to develop a React UI for the admin backend, design API endpoints,
+      as well as to develop the report generators in PHP.
+
+- title: Full-Stack Web Developer
+  company: E8 Pte Ltd
+  date: Mar 2015 - Jul 2015
+  description:
+    - >
+      I developed a document management system that was used internally within the company. Since the client required
+      various custom features not found in popular solutions already available, I wrote the system from scratch in PHP.
+      Examples of such features include many-to-many document categorisation, fine-grained access control, version control,
+      metadata tagging, user management and LDAP integration.
+
+- title: Freelance WordPress Developer
+  company: Tickled Media
+  date: Jan 2013 - Apr 2013
+  description:
+    - >
+      Tickled Media is an online content and community platform for parents in Asia, and runs [theAsianParent.com](https://sg.theasianparent.com/),
+      the largest parenting portal in Southeast Asia. I was in charge of improving two other of their websites, providing ad-hoc support,
+      implementing features, page load optimisation as well as SEO.

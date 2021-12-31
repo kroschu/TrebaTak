@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+    synapse:
+        image: matrixdotorg/synapse
+        restart: unless-stopped
+        env_file:
+            - synapse.env
+        environment:
+            - SYNAPSE_REPORT_STATS=no
+            - SYNAPSE_ENABLE_REGISTRATION=no
+            - SYNAPSE_ALLOW_GUEST=yes
+            - SYNAPSE_LOG_LEVEL=WARN
+            #- SYNAPSE_LOG_LEVEL=DEBUG
+            - SYNAPSE_NO_TLS=yes
+        volumes:
+            - ./synapse:/conf
+            - ./synapse/data:/data
+            - ./matrix-webhook-gateway/data:/data/appservices
+        ports:
+            - 8008:8008/tcp
+    matrix-webhooks:
+        image: geluk/matrix-webhook-gateway:latest
+    # Default settings shown here for reference:
+    # environment:
+    #   WEBHOOK_CONFIG: /config/gateway-config.yaml
+    #   WEBHOOK_APPSERVICE_CONFIG: /data/appservice-webhook-gateway.yaml
+        volumes:
+      # Dynamic data, the application will write to this directory
+            - ./matrix-webhook-gateway/data:/data
+      # Static configuration, can be mounted read-only
+            - ./matrix-webhook-gateway/config:/config
+        ports:
+        # This port is used to listen for incoming webhooks.
+            - 8020:8020
+        # This port is used for communication with your homeserver.
+            - 8023:8023
+        restart: unless-stopped
+    # Defaults shown below, these can be uncommented and edited if required:
+    #user: 953:953

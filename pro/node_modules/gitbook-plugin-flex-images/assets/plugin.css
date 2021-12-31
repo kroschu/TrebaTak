@@ -1,0 +1,33 @@
+/*csslint box-model:false */
+
+.figure-block {
+  padding: .5vw;
+  font-size: 0;
+  flex-flow: row wrap;
+  display: flex;
+  align-content: space-between;
+}
+
+.figure-block div {
+  flex: auto;
+  text-align: center;
+  width: 200px;
+  margin: .5vw;
+}
+
+.figure-block div img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  padding: 4px;
+  border: 1px solid #dddddd;
+}
+
+@media screen and (max-width: 400px) {
+  .figure-block div {
+    margin: 0;
+  }
+  .figure-block {
+    padding: 0;
+  }
+}

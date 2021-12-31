@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="page page-portfolio-single">
+
+  <div class="portfolio-header row center-xs">
+    <div class="col-xs-12">
+      <h1>{{ page.title }}</h1>
+      <p class="tagline">{{ page.tagline }}</p>
+      <ul class="tag-list portfolio-tags">
+        {% for tag in page.tags %}
+          <li class="tag">
+            <span>{{ tag }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="portfolio-screenshot row center-xs">
+    <div class="col-xs-12">
+      {% include mockup.html %}
+    </div>
+  </div>
+
+  <div class="portfolio-content">
+    {{ content | markdownify }}
+  </div>
+
+  <div class="portfolio-links row center-xs">
+    <div class="col-xs-12">
+      {% if page.demo_url %}
+        <a class="btn btn-primary" href="{{ page.demo_url }}" target="_blank">
+          <i class="fa fa-external-link"></i>
+          Live Demo
+        </a>
+      {% endif %}
+
+      {% if page.github_url %}
+        <a class="btn btn-primary" href="{{ page.github_url }}" target="_blank">
+          <i class="fa fa-github"></i>
+          View on GitHub
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+</div>

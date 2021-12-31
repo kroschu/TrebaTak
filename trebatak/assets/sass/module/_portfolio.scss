@@ -1,0 +1,63 @@
+.portfolio-header .tagline {
+    font-weight: 200;
+}
+
+.page-portfolio-single {
+    .carousel {
+        @include box-shadow(none);
+    }
+
+    .browser-mockup {
+        @include box-shadow(0 5px 10px 0 $shadow-browser-mockup);
+    }
+
+    > .row {
+        margin-bottom: 30px;
+    }
+}
+
+.portfolio-year {
+    margin: 10px 0;
+    color: $color-lightgrey;
+}
+
+.portfolio-item {
+    display: block;
+    padding: 0.5rem;
+
+    img {
+        @include transition(225ms opacity);
+
+        width: 100%;
+    }
+
+    &:hover img {
+        opacity: 0.8;
+    }
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tag-list.portfolio-tags {
+    justify-content: center;
+}
+
+@include media-md-down {
+    .marvel-device.ipad {
+        zoom: 0.7;
+    }
+}
+
+@include media-xs-only {
+    .marvel-device.ipad {
+        zoom: 0.3;
+    }
+
+    .marvel-device.iphone6 {
+        zoom: 0.6;
+    }
+}

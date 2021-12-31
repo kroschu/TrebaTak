@@ -1,0 +1,29 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div class="page page-portfolio">
+  <div class="row center-xs">
+    <div class="col-xs-12">
+      <h1>Selected Portfolio</h1>
+      <p class="small">Click to view screenshot and more information.</p>
+
+      {% assign years = site.portfolio | group_by: "year" | sort: "name" | reverse %}
+
+      {% for year in years %}
+        <div class="row center-xs start-md">
+          <h2 class="portfolio-year col-xs-12">Projects in {{ year.name }}</h2>
+        </div>
+
+        <div class="row">
+          {% for item in year.items %}
+            <a href="{{ item.url }}" class="portfolio-item col-xs-12 col-md-6">
+              <img src="/assets/images/portfolio/banners/{{ item.banner }}" alt="{{ item.title }}">
+            </a>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

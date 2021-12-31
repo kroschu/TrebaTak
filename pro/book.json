@@ -1,0 +1,67 @@
+{
+	"gitbook": "3.x.x",
+	"language": "uk",
+	"plugins": [
+	    "remove-published-with-link",
+	    "intopic-toc",
+	    "video-7dtime",
+	    "otherlink",
+		"include",		 
+		"folding-menu",
+		"-autotheme",
+        "-fancybox",
+        "-lunr",
+        "-fontsettings",
+        "-sharing",
+        "-search",
+        "html5-video", 
+        "insert-logo-link",
+        "panel",
+        "anchorjs",
+        "search-plus",
+        "include-html",
+        "edit-link",
+        "embed-pdf", 
+        "accordion"     
+	],
+	"styles": {
+		"website": "styles/website.css"
+	},
+	"title": "TrebaTak",
+	"links": {
+		"sidebar": {
+			"My Blog": "https://rep-c.treba.ml/",
+            "Main page": "https://treba.ml",
+            "Call": "https://doc.treba.ml/",
+            "Лист розробнику": "mailto:tukroschu@gmail.com"
+		}
+	},
+	"pluginsConfig": {  
+	"insert-logo-link": {
+            "src": "/logo.png",
+            "url": "https://treba.ml"
+		},
+    "folding-menu":	{
+      "animationDuration": 500,
+      "sticky":            true
+        },
+		"edit-link": {
+			"base": "https://toc.treba.ml/kde/index.php?editor/edit#filename=%2Fconfig%2Fwww%2Fkde%2Fdata%2FUser%2Fadmin%2Fhome%2Fintro%2F%D0%BF%D1%80%D0%BE%2F",
+			"label": "Edit"
+		},
+		"anchorjs": {
+			"selector": "h2,h3,h4,h5,h6",
+			"icon": "#",
+			"placement": "right",
+			"visible": "hover",
+			"class": "custom-class another-one",
+			"truncate": 64,
+			"ariaLabel": "Anchor"
+		},
+			"headerTemplate": null,
+			"footerTemplate": null
+		},
+     	 "intopic-toc": {
+      "label": "В цьому матеріалі"
+        }
+	}

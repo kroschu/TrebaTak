@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    # Docker doesn't work with inotify, use --force_polling:
+    # https://github.com/jekyll/jekyll-watch/issues/17
+    command: jekyll serve --force_polling
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - $PWD:/srv/jekyll
+      - $PWD/vendor/bundle:/usr/local/bundle

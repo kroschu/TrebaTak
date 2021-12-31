@@ -1,0 +1,68 @@
+<footer class="footer">
+  <div class="social-links">
+    {% if site.author.github %}
+    <a href="https://github.com/{{ site.author.github }}" target="_blank" title="GitHub">
+      <i class="fa fa-github" aria-hidden="true"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.facebook %}
+    <a href="https://www.facebook.com/{{ site.author.facebook }}" target="_blank" title="Facebook">
+      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.twitter %}
+    <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" title="Twitter">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.instagram %}
+    <a href="https://instagram.com/{{ site.author.instagram }}" target="_blank" title="Instagram">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.linkedin %}
+    <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" title="LinkedIn">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </a>
+    {% endif %}
+
+    <a href="{{ site.baseurl }}{% link contact/index.html %}" title="Contact Me">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div class="footer-tagline">
+    Працює на
+    <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61872435-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script> 
+    window.intergramId = "1610918068";
+    window.intergramCustomizations = {
+        mainColor: "#474747",
+        titleClosed: 'Я Вас зацікавив?',
+        titleOpen: 'Надішліть мені повідомлення звідси',
+        introMessage: 'Це спосіб блискавично швидко зв’язатися зі мною. Напишіть повідомлення внизу і натисніть Enter. Відповім якомога швидше.',
+        autoResponse: 'Я вже отримав повідомлення. Де б я не був. Читаю його...',
+        autoNoResponse: 'Секунду, заждіть ... ' + 'Ще трооошечки ...',
+        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
+    };
+    window.intergramServer = "https://krotel.treba.ml"
+</script>
+<script id="intergram" type="text/javascript" src="https://krotel.treba.ml/js/widget.js"></script>

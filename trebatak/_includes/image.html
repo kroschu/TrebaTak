@@ -1,0 +1,10 @@
+{% if include.externalsrc %}
+  {% assign src = include.externalsrc %}
+{% else %}
+  {% assign src = site.baseurl | append: '/assets/images/posts/' | append: include.src %}
+{% endif %}
+
+<div class="image-wrapper">
+  <img src="{{ src }}" alt="{{ include.caption | default: '&nbsp;' }}" {%if include.width %} width="{{ include.width }}" {% endif %} />
+  <p class="caption">{{ include.caption }}</p>
+</div>

@@ -1,0 +1,30 @@
+footer {
+    text-align: center;
+    border-top: 1px solid $color-border;
+    padding: 20px 0 10px;
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        max-width: 300px;
+        margin: 10px auto;
+
+        a {
+            @include transition(225ms color);
+
+            color: $color-lightgrey;
+
+            &:hover {
+                color: $color-medgrey;
+            }
+        }
+    }
+
+    .footer-tagline {
+        margin: 20px 0 0;
+        font-size: 13px;
+        color: $color-lightgrey;
+    }
+}

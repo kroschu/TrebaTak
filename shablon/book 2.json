@@ -1,0 +1,70 @@
+{
+	"gitbook": "3.x.x",
+	"language": "ru",
+	"plugins": [
+		"include",
+        "video-7dtime", 
+        "insert-logo-link",
+        "panel",
+        "language-picker",
+        "anchorjs",
+        "collapsible-menu",
+        "-search",
+        "-lunr",
+        "search-plus",
+        "include-html",
+        "edit-link",
+        "custom-favicon",
+        "embed-pdf", 
+        "fancybox",
+        "accordion",
+        "image-class",
+        "flex-images",
+        "back-to-top-button"
+	],
+	"styles": {
+		"website": "styles/website.css"
+	},
+	"title": "Репаратур VK",
+	"links": {
+		"sidebar": {
+			"Лист розробнику": "mailto:tukroschu@gmail.com",
+			"Джерела": "http://roz.dynu.net:8083/"
+		}
+	},
+	"pluginsConfig": {
+           "page-toc-button": {
+              "maxTocDepth": 2,
+              "minTocSize": 2
+   		},
+		"edit-link": {
+			"base": "http://fcloud.pp.ua:8085/edit/contents/",
+			"label": "Правити"
+		},
+		"anchorjs": {
+			"selector": "h2,h3,h4,h5,h6",
+			"icon": "#",
+			"placement": "right",
+			"visible": "hover",
+			"class": "custom-class another-one",
+			"truncate": 64,
+			"ariaLabel": "Anchor"
+		},
+		"language-picker": {
+			"grid-columns": 3
+		},
+		"pdf": {
+			"pageNumbers": false,
+			"fontSize": 12,
+			"paperSize": "a4",
+			"margin": {
+				"right": 62,
+				"left": 36,
+				"top": 36,
+				"bottom": 36
+			},
+			"headerTemplate": null,
+			"footerTemplate": null
+		}
+	}
+}
