@@ -16,6 +16,7 @@
 		"remove-published-with-link",
 		"intopic-toc",
 		"otherlink",
+		"mygitalk",
 		"include",
 		"image-class",
 		"panel",
@@ -60,6 +61,13 @@
 		},
   "sectionx": { 	 "tag": "h4" 
  },
+    "mygitalk": 
+    { "clientID": "ff0057b95e2e919e766d", "clientSecret": "7a9935d4cf09d9bc1ab580dfb9942df00e75cf11", 
+      "repo": "github.com/kroschu/TrebaTak", 
+      "owner": "kroschu",
+      "admin": ["kroschu"],
+      "distractionFreeMode": false
+    },
 		"edit-link": {
 			"base": "http://wiki.vokov.tk/edit/allegro/",
 			"label": "Редагувати"
