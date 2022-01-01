@@ -32,7 +32,7 @@ A useful tool to help you build these UTM-powered URLs would be Google's [Campai
 
 {% include image.html src="cs3216/All-Traffic-Analytics.png" caption="Screenshot of the performance of each tracked link we sent out till today." %}
 
-So how did this help? First of all, notice that we had almost 50% of incoming traffic without any UTM codes, which meant one or two things: we have been giving out flyers and put up posters aggressively since Tuesday, and those URLs could not possible have included the UTM codes (since people were going to type them into their browser manually), and there were **123 new users **on Thursday resulting from direct referrals (1 day before STePS), the highest ever compared to other days. This could have meant that our marketing in person was the most effective form of marketing (either that, or somehow we missed out tagging a whole bunch of URLs):
+So how did this help? First of all, notice that we had almost 50% of incoming traffic without any UTM codes, which meant one or two things: we have been giving out flyers and put up posters aggressively since Tuesday, and those URLs could not possible have included the UTM codes (since people were going to type them into their browser manually), and there were **123 new users**on Thursday resulting from direct referrals (1 day before STePS), the highest ever compared to other days. This could have meant that our marketing in person was the most effective form of marketing (either that, or somehow we missed out tagging a whole bunch of URLs):
 
 {% include image.html src="cs3216/Capture.png" caption="<span style='font-family: Comic Sans MS, sans-serif; font-weight: bold; font-size: 14px; color: violet;'>such users, much wow</span>" %}
 
