@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Правила-роботи-з-системою-Kanban.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Правила-роботи-з-системою-Kanban.html)
 
 •    3 ящиків не можна здирати етикетку або переклеювати'на інший ящик, заборонено знищувати етикетку (приводить до втрати одного ящика і несвоєчасного забезпечення ліній матеріалом);
 

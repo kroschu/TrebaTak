@@ -1,12 +1,12 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Analіz-robocho-stancії-Reparatur-VK.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Analіz-robocho-stancії-Reparatur-VK.html)
 
 ## Робоча станція (РС) «Репаратур VK»
 
 ![](https://4to.treba.ml/upload/2020/12/25/20201225135419-8f391297.png)
 
-На робочій станції (РС) «Репаратур VK», в процесі виконання різних виробничих завдань, виконуються лише одна технологічна операція - [«Контактування»](https://rep-a.treba.ml/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F.html).
+На робочій станції (РС) «Репаратур VK», в процесі виконання різних виробничих завдань, виконуються лише одна технологічна операція - [«Контактування»](https://pp.vokov.tk/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F.html).
 
 ![](https://4to.treba.ml/byWCmbOt/62B1E091-B83E-4634-AE75-3C060CFDB8D9.jpeg)
 

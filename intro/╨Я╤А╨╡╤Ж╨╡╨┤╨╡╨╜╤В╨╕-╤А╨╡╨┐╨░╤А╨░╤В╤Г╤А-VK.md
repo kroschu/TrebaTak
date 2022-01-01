@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Прецеденти-репаратур-VK.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Прецеденти-репаратур-VK.html)
 
 1. Неправильне оформлення завдання на переробку проводки.
 2. Інструмент відсутній в тул-рум.

@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/nbya-nomer-9.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/nbya-nomer-9.html)
 
 
 Група НБЯ: Проблема зв´язку

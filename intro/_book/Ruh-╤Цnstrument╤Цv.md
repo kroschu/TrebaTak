@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Ruh-іnstrumentіv.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Ruh-іnstrumentіv.html)
 
 {% panel style="info", title="Група небажаних явищ - Рух інструментів" %}
 Група НБЯ пов'язаних з недостаньою автоматизацією контролю руху інструментів. Пошук доступного інструмента займає часто доволі значний час по причині недостатньої функціональності існуючої інформаційної системи в цьому напрямку та конкуренції за інструменти між робочими станціями.

@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/nbya-nomer-1.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/nbya-nomer-1.html)
 **Група НБЯ**: Рух інструментів
 
 **Робоча станція**: Репаратур VK 

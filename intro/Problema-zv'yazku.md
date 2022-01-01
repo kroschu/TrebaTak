@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Problema-zv'yazku.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Problema-zv'yazku.html)
 
 
 {% panel style="info", title="Група небажаних явищ - Проблема зв'язку (небажаних явищ)" %}

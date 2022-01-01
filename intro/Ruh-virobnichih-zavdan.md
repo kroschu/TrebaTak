@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Ruh-virobnichih-zavdan.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Ruh-virobnichih-zavdan.html)
 
 
 {% panel style="info", title="Група небажаних явищ - Рух виробничих завдань" %}

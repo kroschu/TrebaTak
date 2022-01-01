@@ -1,6 +1,6 @@
 !INCLUDE "htm/intergram.html"
 
-![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://rep-a.treba.ml/Kanban.html)
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/Kanban.html)
 
 # Kanban(система управління запасами)
 Kanban - це управлінська система, що є механізмом організації безперервного гнучкого виробничого процесу. Тобто, за допомогою Kanban системи необхідні матеріали в оптимальній кількості своєчасно доставляються в потрібне місце.
