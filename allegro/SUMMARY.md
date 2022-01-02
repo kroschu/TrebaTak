@@ -1,4 +1,5 @@
-* [test](pokrasdoclad.md)
+* [data1](pokrasdoclad.md)
+* [data2](Ustatk-farbuv-avtomatichnikh-linii.md)
 * [Про проект Треба так](_README.md)
    * [1 Зовнішні умови та вимоги до проекту ](_README.md)
    * [2 Сучасний стан та опис проекту](trebatak.md)
