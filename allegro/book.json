@@ -36,7 +36,7 @@
 		"edit-link",
 		"accordion", 
 		"fancybox",
-		"qrcode"
+		"disqus"
 	],
 	"title": "TrebaTak",
 	"links": {
@@ -85,5 +85,19 @@
 	},
 	"intopic-toc": {
 		"label": "Zmist"
-	}
+	},
+	"rss": {
+      "title": "Порошкове фарбування in",
+      "author": "Mapull",
+            "feed_url": "https://www.pp.vokov.tk/rss",
+            "site_url": "https://www.pp.vokov.tk/",
+            "managingEditor": "mapull@123.com",
+            "webMaster": "mapull@123.com",
+            "categories": [
+                "gitbook"
+            ]
+      	},
+      	"disqus": {
+        "shortName": "mapull"
+        }
 }
