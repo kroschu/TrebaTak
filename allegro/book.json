@@ -35,8 +35,7 @@
 		"include-html",
 		"edit-link",
 		"accordion", 
-		"fancybox",
-		"disqus"
+		"fancybox"
 	],
 	"title": "TrebaTak",
 	"links": {
@@ -97,7 +96,7 @@
                 "gitbook"
             ]
       	},
-      	"disqus": {
-        "shortName": "mapull"
+       "disqus": {
+            "shortName": "pp-vokov-tk"
         }
 }
