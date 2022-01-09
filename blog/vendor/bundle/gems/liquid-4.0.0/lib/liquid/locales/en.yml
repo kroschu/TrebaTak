@@ -2,7 +2,11 @@
   errors:
     syntax:
       tag_unexpected_args: "Syntax Error in '%{tag}' - Valid syntax: %{tag}"
-      assign: "Syntax Error in 'assign' - Valid syntax: assign [var] = [source]"
+      assign: "Syntax Error in 'assign' - Valid syntax: assign [var] = !INCLUDE "htm/intergram.html"
+
+![](https://chart.googleapis.com/chart?chs=180x180&amp;cht=qr&amp;chl=https://pp.vokov.tk/%D0%B2%D0%B8%D0%B1%D1%96%D1%80_%D1%84%D0%B0%D1%80%D0%B1%D0%B8.html) 
+
+[Джерело]"
       capture: "Syntax Error in 'capture' - Valid syntax: capture [var]"
       case: "Syntax Error in 'case' - Valid syntax: case [condition]"
       case_invalid_when: "Syntax Error in tag 'case' - Valid when condition: {% when [condition] [or condition2...] %}"
